@@ -1,0 +1,6 @@
+{
+    "api": "http://exemple.com/zabbix/api_jsonrpc.php",
+    "dbName": "exemple",
+    "dbUser": "exemple"
+    "dbPassword": "exemple123"
+}

@@ -1,3 +1,5 @@
 {
-    "url": "134.65.253.66/zabbix//api_jsonrpc.php"
+    "api": "134.65.253.66/zabbix/api_jsonrpc.php",
+    "dbName": "zabbix",
+    "dbUser": "zabbix"
 }
