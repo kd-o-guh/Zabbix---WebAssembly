@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #1d182c;
+}
+
+.container{
+    width: 100vw;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left h1{
+    color: #51e8e8;
+}
+
+.left img{
+    width: 30vw;
+    margin-top: 20px;
+}
+
+.right{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 42%;
+    background: #342c4d;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    box-shadow: 0 10px 40px #00000056;
+}
+
+.card-login h1{
+    color: aqua;
+    font-weight: 700;
+}
+
+.card-login form{
+    width: 100%;
+}
+
+.inputs-login{
+    width: 100%;
+    display: flex;
+    margin: 30px 0px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputs-login input{
+    width: 100%;
+    background: #584e73;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size:15px;
+    outline: none;
+}
+
+.inputs-login input::placeholder{
+    color: #aaaaaa;
+}
+
+.inputs-login label{
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.login-btn{
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px 0px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px -12px #51e8e86d;
+    outline: none;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #2b1b5a;
+    background: #51e8e8;
+    cursor: pointer;
+}
+
+.storyset{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 10px;
+}
